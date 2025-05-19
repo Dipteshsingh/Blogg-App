@@ -1,0 +1,126 @@
+/* Home.css */
+
+.home-container {
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fcfcfc;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background: linear-gradient(to right, #3b5998, #192f60);
+  color: white;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #fba826;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #e69712;
+}
+
+.btn-secondary {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero-section img {
+  max-width: 350px;
+  border-radius: 16px;
+  margin-top: 1rem;
+}
+
+/* FEATURED BLOGS */
+.featured-blogs {
+  text-align: center;
+  padding: 2rem;
+}
+
+.featured-blogs h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.blog-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-card h3 {
+  margin-bottom: 0.8rem;
+  color: #192f60;
+}
+
+.blog-card p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.blog-card a {
+  color: #3b5998;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-card a:hover {
+  text-decoration: underline;
+}
